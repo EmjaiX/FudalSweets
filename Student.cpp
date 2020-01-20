@@ -1,4 +1,4 @@
-#include "student.h"
+#include "Student.h"
 #include <string>
 
 using namespace std;
@@ -6,20 +6,20 @@ using namespace std;
 
 Student::Student() {
 
-	FName = "no";
-	LName = "name";
-	CreditHEarned = 0;
-	CreditHAttempted = 0;
-	CreditHPoints = 0;
+	this->FName = "no";
+	this->LName = "name";
+	this->CreditHEarned = 0;
+	this->CreditHAttempted = 0;
+	this->CreditHPoints = 0;
 	//simply creates a student object
 }
 
 Student::Student(string FName,string LName) {
 	this->FName = FName;
 	this->LName = LName;
-	CreditHEarned = 0;
-	CreditHAttempted = 0;
-	CreditHPoints = 0;
+	this->CreditHEarned = 0;
+	this->CreditHAttempted = 0;
+	this->CreditHPoints = 0;
 	//simply creates a student object
 }
 
